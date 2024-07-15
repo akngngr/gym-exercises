@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Workout App
 
-## Available Scripts
+Workout App is a comprehensive gym exercise platform that allows users to search all kinds of exercises by muscle group, exercise, or equipment type. With functionality to choose exercise categories and specific muscle groups, users can browse more than one thousand exercises with practical examples, pagination, exercise details, related videos from YouTube, similar exercises, and much more.
 
-In the project directory, you can run:
+![enter image description here](https://akin-gungor.vercel.app/assets/gym-2dec05a0.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Exercise Search**: Search exercises by muscle group, exercise, or equipment type.
+- **Exercise Categories**: Choose from various exercise categories and specific muscle groups.
+- **Extensive Exercise Database**: Browse over one thousand exercises with practical examples.
+- **Exercise Details**: View detailed information about each exercise.
+- **Related Videos**: Pull and display related exercise videos from YouTube.
+- **Similar Exercises**: Discover similar exercises for variety in workouts.
+- **Pagination**: Efficiently browse through exercises with pagination.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Supabase**: An open-source backend as a service (BaaS) providing a real-time database and authentication.
+- **CSS**: For styling the application and ensuring a responsive design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Follow these steps to get the project up and running on your local machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   git clone https://github.com/akngngr/gym-exercises.git
+   cd gym-exercises
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 2.  **Install dependencies:**
+  
+     `npm install` 
+    
+3.  **Set up Supabase:**
+    
+    -   Create a new project on [Supabase](https://supabase.io/).
+    -   Get the API URL and Anon Key from the project settings.
+    -   Create a `.env.local` file in the root directory and add the following environment variables   
+        
+        `NEXT_PUBLIC_SUPABASE_URL=your-supabase-url`
+        `NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key` 
+        
+4.  **Start the development server:**
+          
+    `npm run dev` 
+    
+5.  **Build for production:**
+    
+    ```
+    npm run build
+    npm start
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Open your browser and navigate to `http://localhost:3000`.
+2.  Use the search feature to find exercises by muscle group, exercise, or equipment type.
+3.  Explore exercise details, related YouTube videos, and similar exercises.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We welcome contributions to enhance the functionality and user experience of the Workout App. Please follow these steps to contribute:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature-branch`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'Add some feature'`).
+5.  Push to the branch (`git push origin feature-branch`).
+6.  Open a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any inquiries or feedback, please contact via [email](mailto:akingungor04@gmail.com).
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   [Next.js](https://nextjs.org/) for the React framework.
+-   [Supabase](https://supabase.io/) for the backend services.
+-   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) for styling.
