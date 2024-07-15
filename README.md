@@ -26,9 +26,9 @@ Workout App is a comprehensive gym exercise platform that allows users to search
 Follow these steps to get the project up and running on your local machine.
 
 1. **Clone the repository:**
+   ```
    git clone https://github.com/akngngr/gym-exercises.git
    cd gym-exercises
-
  2.  **Install dependencies:**
   
      `npm install` 
